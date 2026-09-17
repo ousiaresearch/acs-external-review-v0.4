@@ -25,7 +25,7 @@ The v0.4 candidate’s proposed public claim limit is exactly `attestation_only`
 4. Examine [governance profiles and reviewer boundaries](founding-governance-profiles-v0.2.md).
 5. Inspect the [public-attestation Worker](public-attestation-service/) and run its tests.
 6. Read the verified [public service status](PUBLIC-SERVICE-STATUS.md).
-7. Submit a review following [CONTRIBUTING.md](CONTRIBUTING.md).
+7. Submit a review following [CONTRIBUTING.md](CONTRIBUTING.md); see [REVIEW-TRIAGE.md](REVIEW-TRIAGE.md) for the public processing route.
 
 ## Exact candidate provenance
 
