@@ -1,0 +1,14 @@
+{
+  "name": "acs-public-attestation-review-packet",
+  "private": true,
+  "version": "0.4.0-review",
+  "description": "Reproducible local verification for the ACS v0.4 public-attestation review packet.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test public-attestation-service/tests/worker.test.mjs && python3 public-attestation-service/tests/migration_invariants.py",
+    "check": "node --check public-attestation-service/src/worker.mjs && node --check public-attestation-service/deploy.mjs && node --check public-attestation-service/runtime-config.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "4.134.0"
+  }
+}

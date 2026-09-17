@@ -1,0 +1,14 @@
+{
+  "name": "acs-public-attestation",
+  "main": "src/worker.mjs",
+  "compatibility_date": "2026-09-17",
+  "d1_databases": [{
+    "binding": "ATTESTATIONS",
+    "database_name": "acs-public-attestation",
+    "database_id": "[REDACTED]",
+    "migrations_dir": "migrations"
+  }],
+  "vars": {
+    "CANDIDATE_DIGEST": "sha256:20ae049d16404e9951287a3a5092a614ace27a5705f77c8a050b3441df89687a"
+  }
+}

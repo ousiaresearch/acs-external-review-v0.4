@@ -1,0 +1,7 @@
+.wrangler.runtime.jsonc
+.wrangler.source.jsonc
+node_modules/
+.env
+.env.*
+*.log
+.DS_Store
